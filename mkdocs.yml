@@ -1,0 +1,13 @@
+site_name: OpSisttems Docs
+
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Início: index.md
+  - Programação: programacao.md
+  - Estoque: estoque.md
+  - Robôs:
+      - Fairino: fairino.md
+      - KUKA: kuka.md
