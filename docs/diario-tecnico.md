@@ -1,4 +1,22 @@
+## 18/03/2026 — Impressão de etiquetas (Programação Filial)
 
+**Participantes:** Marvin, Alberto  
+**Tags:** `programação` `etiqueta` `filial`
+
+---
+
+### ⚠ Problema
+Impressão de etiquetas de itens que foram divididos na programação gerava etiquetas erradas.
+
+### ✅ Decisão
+Imprimir **um item por vez** quando ocorrer esse caso.
+
+### 🧾 Motivo
+Quando a consulta agrupa os itens, gera poucas etiquetas.  
+Quando não agrupa, o tingimento é multiplicado dentro da etiqueta.
+
+### 🎯 Impacto
+Itens divididos na programação filial.
 <body>
     <div class="container">
         <h1>Diário de Conversas Técnicas para Registro</h1>
