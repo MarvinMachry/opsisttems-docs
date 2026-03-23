@@ -7,20 +7,20 @@ Descrição da utilização do módulo **Produção Produtos**.
 
 !!! info "Filtros disponíveis"
 
-      ### Maq. Atual  
-      Filtra os produtos que estão atualmente na máquina selecionada.
+    ### Maq. Atual  
+    Filtra os produtos que estão atualmente na máquina selecionada.
 
-      ### Máquina  
-      Filtra os produtos que possuem ao menos uma vez no processo a máquina selecionada.
+    ### Máquina  
+    Filtra os produtos que possuem ao menos uma vez no processo a máquina selecionada.
 
-      ### Data  
-      Filtra os registros a partir da data selecionada.
+    ### Data  
+    Filtra os registros a partir da data selecionada.
 
-      ### Produto  
-      Permite filtrar diretamente por produto.
+    ### Produto  
+    Permite filtrar diretamente por produto.
 
-      ### Campos da Previsão  
-      São atualizados automaticamente conforme o filtro da **Máquina**.
+    ### Campos da Previsão  
+    São atualizados automaticamente conforme o filtro da **Máquina**.
 
 
 ---
@@ -32,39 +32,39 @@ Descrição das funções do módulo **Produção Produtos**.
 
 !!! tip "Botões do módulo"
 
-    - **Avançar**  
+    ### Avançar  
       Atualiza o componente para a próxima etapa cadastrada na sequência.  
       Se for a última etapa do componente, o item é marcado como **concluído**.
 
-    - **Voltar**  
+    ### Voltar  
       Atualiza o componente para a etapa anterior da sequência.  
       Remove também o histórico do componente nas máquinas atual e anterior.
 
-    - **Histórico**  
+    ### Histórico  
       Exibe o histórico de movimentações do componente selecionado.
 
-    - **Excluir P.**  
+    ### Excluir P.  
       Exclui o **produto em foco**.
 
-    - **Excluir C.**  
+    ### Excluir C.  
       Exclui o **componente em foco**.
 
-    - **Previsão**  
+    ### Previsão  
       Calcula a previsão de conclusão de cada produto com base nas máquinas **CNC A** e **CNC B**.
 
-    - **Inserir**  
+    ### Inserir  
       Abre formulário para adicionar um novo componente ao produto selecionado.
 
-    - **Editar**  
+    ### Editar  
       Abre formulário para editar a **data de necessidade** e a **quantidade do lote**.
 
-    - **Imprimir Corte**  
+    ### Imprimir Corte  
       Abre o relatório de etiquetas para o setor de **Corte**.  
       Apenas itens **marcados** e com setor atual **CORTE** serão incluídos.
 
-    - **Att. Datas**  
+    ### Att. Datas  
       Atualiza as datas de **Falta Dia/NOG** para **Filial** e **Matriz**.  
       Na filial é utilizado um **antecedência de 14 dias**.
 
-    - **Estoque**  
+    ### Estoque  
       Abre a caixa de entrada para informar a quantidade (**NOG** e **CAS**) enviada para o **estoque da filial**.
