@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# OpSisttems
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Documentação técnica interna do sistema utilizado na Móveis Gottems.
 
-## Commands
+## Módulos documentados
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Programação
+- Produção
+- Ficha Técnica
+- Tempos de Processo
+- Estoque
+- Manutenção
+- Visualizador de Lotes
+- Diário Técnico
 
-## Project layout
+## Objetivo
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Centralizar conhecimento técnico do sistema e registrar decisões de engenharia.

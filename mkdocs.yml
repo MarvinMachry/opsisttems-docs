@@ -1,4 +1,6 @@
-site_name: OpSisttems Docs
+site_name: OpSisttems - Documentação
+site_description: Documentação técnica do sistema OpSisttems
+site_author: Móveis Gottems
 
 theme:
   name: material
@@ -6,8 +8,15 @@ theme:
 
 nav:
   - Início: index.md
-  - Programação: programacao.md
-  - Estoque: estoque.md
-  - Robôs:
-      - Fairino: fairino.md
-      - KUKA: kuka.md
+  - Diário Técnico: diario-tecnico.md
+  - Programação:
+      - Programação: programacao.md
+      - Produção Produtos: producao.md
+      - PCP Simplificado: pcp-simplificado.md
+  - Engenharia:
+      - Ficha Técnica: ficha-tecnica.md
+      - Tempos de Processo: tempos.md
+  - Estoque:
+      - Estoque Componentes: estoque-componente.md
+      - Visualizador de Lote: visualizador-lote.md
+  - Manutenção: manutencao.md
