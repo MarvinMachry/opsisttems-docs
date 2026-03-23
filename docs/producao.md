@@ -7,19 +7,19 @@ Descrição da utilização do módulo **Produção Produtos**.
 
 !!! info "Filtros disponíveis"
 
-    - **Maq. Atual**  
+      ### Maq. Atual  
       Filtra os produtos que estão atualmente na máquina selecionada.
 
-    - **Máquina**  
+      ### Máquina  
       Filtra os produtos que possuem ao menos uma vez no processo a máquina selecionada.
 
-    - **Data**  
+      ### Data  
       Filtra os registros a partir da data selecionada.
 
-    - **Produto**  
+      ### Produto  
       Permite filtrar diretamente por produto.
 
-    - **Campos da Previsão**  
+      ### Campos da Previsão  
       São atualizados automaticamente conforme o filtro da **Máquina**.
 
 
