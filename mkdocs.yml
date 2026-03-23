@@ -6,6 +6,11 @@ theme:
   name: material
   language: pt-BR
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Início: index.md
   - Diário Técnico: diario-tecnico.md

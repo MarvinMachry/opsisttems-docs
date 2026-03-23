@@ -6,16 +6,19 @@
 Descrição da lista do módulo **Programação**.
 
 !!! info "Ações rápidas"
-    
-    **2 cliques no campo Data**  
+
+    **2 cliques no campo Data**
+
     Abre um formulário para alteração da data.  
     A alteração também impacta outros módulos, como **Corte Filial**.  
     Se houver itens vinculados, apenas usuários do **PCP** podem editar.
 
-    **2 cliques no campo Config**  
+    **2 cliques no campo Config**
+
     Permite configurar o item para o setor de **Corte** (somente Filial).
 
-    **2 cliques no campo Descrição**  
+    **2 cliques no campo Descrição**
+
     Abre o módulo de **Status do item**, permitindo alterar dados do produto.
 
 
