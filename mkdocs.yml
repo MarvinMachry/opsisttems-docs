@@ -22,6 +22,6 @@ nav:
       - Ficha Técnica: ficha-tecnica.md
       - Tempos de Processo: tempos.md
   - Estoque:
-      - Estoque Componentes: estoque-componente.md
+      - Estoque Montagem: estoque-componente.md
       - Visualizador de Lote: visualizador-lote.md
   - Manutenção: manutencao.md
