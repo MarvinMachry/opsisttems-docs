@@ -1,46 +1,77 @@
+# Produção Produtos
+
+## Descrição
+*Data de edição: 30/10/2024*
+
+Descrição da utilização do módulo **Produção Produtos**.
+
+!!! info "Filtros e campos do módulo"
+
+    ### Maq. Atual
+    Filtra os produtos que estão **atualmente na máquina selecionada**.
+
+    ### Máquina
+    Filtra os produtos que possuem **ao menos uma vez no processo** a máquina selecionada.
+
+    ### Data
+    Filtra os registros **a partir da data selecionada**.
+
+    ### Produto
+    Permite filtrar diretamente **pelo produto**.
+
+    ### Campos da Previsão
+    Os campos de previsão são **atualizados automaticamente** conforme o filtro da **Máquina**.
 
 
-<body>
-    <div class="container">
-        <h1>Produção Produtos</h1>
-        <ul class="version-list">
-            <li>
-                <div>
-                    <strong class="version">Produção Produtos</strong>
-                    <span class="date">Data de edição: 30/10/2024</span>
-                    <p>Descrição da utilização do módulo Produção.</p>
-                    <ul>
-                        <li><b>Maq. Atual:</b> Filtra os produtos que estão atualmente na máquina selecionada. </li>
-                        <li><b>Maquina:</b> Filtra os produtos que possuem ao menos 1 vez no processo a maquina selecionada. </li>
-                        <li><b>Data:</b> Filtro de data à partir da data selecionada. </li>
-                        <li><b>Produto:</b> Filtro pelo produto. </li>
-                        <li><b>Campos da Previsão:</b> São atualizados através do filtro da Maquina. </li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <strong class="version">Produção Produtos</strong>
-                    <span class="date">Data de edição: 30/06/2025</span>
-                    <p>Descrição de funções do módulo Produção.</p>
-                    <ul>
-                        <li><b>Botão Avançar:</b> Atualiza o componente para a próxima etapa cadastrada na sequência. Se for a última etapa do componente, 
-                            marca o item como concluído. </li>
-                        <li><b>Botão Voltar:</b> Atualiza o componente para a etapa anterior na sequência. Excluindo o histórico do componente na máquina atual e anterior.</li>
-                        <li><b>Botão Histórico:</b> Mostra o histórico de movimentações do componente selecionado. </li>
-                        <li><b>Botão Excluir P.:</b> Exclui o produto em foco. </li>
-                        <li><b>Botão Excluir C.:</b> Exclui o componente em foco. </li>
-                        <li><b>Botão Previsão:</b> Calcula a previsão de conclusão de cada produto baseado nas CNC A e B. </li>
-                        <li><b>Botão Inserir:</b> Abre formulario para adicionar novo componente para o produto em foque.</li>
-                        <li><b>Botão Editar:</b> Abre formulario para editar a data de necessidade e a quantidade do lote.</li>
-                        <li><b>Botão Imprimir Corte:</b> Abre relatório de etiquetas para o setor do corte, abre os itens marcados e somente com setor atual CORTE. </li>
-                        <li><b>Botão Att. Datas:</b> Atualiza as datas de "Falta Dia/Nog" para filial e matriz. Para filial foi configurado com 14 dias de antecedência. </li>
-                        <li><b>Botão Estoque:</b> Abre Caixa de Entrada para informar a quantidade (NOG e CAS) enviada para estoque Filial. </li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-    </div>
-</body>
+---
 
-    
+## Funcionalidades
+*Data de edição: 30/06/2025*
+
+Descrição das funções do módulo **Produção Produtos**.
+
+!!! tip "Botões do módulo"
+
+    ### Avançar
+    Atualiza o componente para a **próxima etapa cadastrada na sequência**.
+
+    Se for a última etapa do componente, o item será **marcado como concluído**.
+
+    ### Voltar
+    Atualiza o componente para a **etapa anterior da sequência**.
+
+    O sistema também **remove o histórico do componente** nas máquinas atual e anterior.
+
+    ### Histórico
+    Exibe o **histórico de movimentações** do componente selecionado.
+
+    ### Excluir P.
+    Exclui o **produto atualmente em foco**.
+
+    ### Excluir C.
+    Exclui o **componente atualmente em foco**.
+
+    ### Previsão
+    Calcula a **previsão de conclusão de cada produto** com base nas máquinas **CNC A** e **CNC B**.
+
+    ### Inserir
+    Abre formulário para **adicionar um novo componente** ao produto selecionado.
+
+    ### Editar
+    Abre formulário para editar:
+
+    - **data de necessidade**
+    - **quantidade do lote**
+
+    ### Imprimir Corte
+    Abre o relatório de **etiquetas para o setor de Corte**.
+
+    Apenas itens **marcados** e com **setor atual CORTE** serão incluídos.
+
+    ### Att. Datas
+    Atualiza as datas de **Falta Dia/Nog** para **Filial** e **Matriz**.
+
+    Para a filial foi configurada uma **antecedência de 14 dias**.
+
+    ### Estoque
+    Abre a **Caixa de Entrada** para informar a quantidade (**NOG** e **CAS**) enviada para o **estoque da filial**.
