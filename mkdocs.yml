@@ -16,22 +16,23 @@ nav:
 
   - Versões:
       - 1.x:
-          - 1.9: versoes/1_9.md
-          - 1.8: versoes/1_8.md
-          - 1.7: versoes/1_7.md
-          - 1.6: versoes/1_6.md
-          - 1.5: versoes/1_5.md
-          - 1.4: versoes/1_4.md
-          - 1.3: versoes/1_3.md
-          - 1.2: versoes/1_2.md
-          - 1.1: versoes/1_1.md
+          - 1.9: versoes/1/1_9.md
+          - 1.8: versoes/1/1_8.md
+          - 1.7: versoes/1/1_7.md
+          - 1.6: versoes/1/1_6.md
+          - 1.5: versoes/1/1_5.md
+          - 1.4: versoes/1/1_4.md
+          - 1.3: versoes/1/1_3.md
+          - 1.2: versoes/1/1_2.md
+          - 1.1: versoes/1/1_1.md
 
   - Diário Técnico: diario-tecnico.md
 
   - Programação:
       - Programação: programacao.md
-      - Produção Produtos: producao.md
+      - Produção Produtos: produto-programacao.md
       - PCP Simplificado: pcp-simplificado.md
+      - Produção Filial: corte-filial.md
 
   - Engenharia:
       - Ficha Técnica: ficha-tecnica.md
