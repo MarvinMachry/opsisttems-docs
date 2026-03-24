@@ -13,6 +13,7 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+  - Versões: versoes.md
   - Diário Técnico: diario-tecnico.md
   - Programação:
       - Programação: programacao.md
