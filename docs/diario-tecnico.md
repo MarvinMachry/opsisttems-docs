@@ -1,4 +1,32 @@
 
+## **26/03/2026 — Impressão de etiquetas (Programação Filial)**
+
+**Sistema:** OpSisttems  
+**Participantes:** Marvin, Alberto  
+**Módulo:** Programação Filial  
+**Tags:** `producao filial` `ficha tecnica` `filial`
+
+!!! warning ""PROBLEMA"
+
+    Componentes gerados **manualmente** não conseguem avançar etapa no sistema de produção.
+
+!!! question "DECISAO"
+
+    Sempre que gerar um item de assistência, gerar esse item no configurador e ao invés de criar um item,
+    alterar o item que já existe, pois depois quando avançar, o sistema irá pesquisá-lo na ficha técnica.
+    Foi decidido fazer assim, pois ficaria complexo fazer uma correção para isso.
+
+!!! info "MOTIVO"
+
+    - Ao gerar um item criado do "zero", esse item não irá possuir um código da ficha técnica, ocasionando o problema.
+
+!!! success "IMPACTO"
+
+    Itens especiais e criados para a produção.
+
+---
+
+
 ## **18/03/2026 — Impressão de etiquetas (Programação Filial)**
 
 **Sistema:** OpSisttems  
